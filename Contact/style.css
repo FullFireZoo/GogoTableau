@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    display: flex;
+    justify-content:center;
+    
+    flex-direction: column;
+    height: 100%;
+}
+.haut {
+    background-color: #6F819B;
+    width: 100%;
+    height: 740px;
+}
+header {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #c4c4c47e;
+height: 79px;
+width: 100%;
+}
+.menuBtn {
+    width: 224px;
+    height: 65px;
+    font-size: 64px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.listMenu {
+    display: none;
+}
+.corps {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.com {
+    background-color: #c4c4c47e;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 5px;
+}
+
+.com input {
+    padding:10px 135px 10px 135px;
+}
+
+.com button {
+    width: calc(100% - 100px);
+    height: 30px;
+}
+.contact {
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 360px;
+    
+}
+.reseaux {
+    background-color: #6F819B;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.reseaux a img {
+    width: 120px;
+    height: 120px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color:#C4C4C4;
+}
